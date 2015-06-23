@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:background="@android:color/darker_gray"><![CDATA[
+        >
+        ]]></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/locationText"
+            android:layout_weight="0.31"
+            android:textSize="20dp"
+/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:text="Dismiss"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Maps"
+        android:id="@+id/launchmap"
+        android:layout_marginBottom="149dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GPSlocation edit</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="locationText">Placeholder</string>
+</resources>
